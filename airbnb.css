@@ -1,0 +1,263 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#logo{
+    width: 30px;
+}
+.navbar{
+    padding: 15px 15px 15px 15px;
+    position: absolute;
+    top: 0px;
+}
+#pic{
+    object-fit: cover;
+    width: 100%;
+    padding-left: -20px;
+    position: relative;
+}
+#main-form{
+width: 441px;
+height: 477px;
+background-color: white;
+position: absolute;
+top: 120px;
+left: 80px;
+border-radius: 1%;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#form-heading{
+padding-left: 30px;
+padding-top: 20px;
+font-weight: bold;
+font-size: 185%;
+margin: 0 auto;
+}
+.fhtext{
+color: #484848;
+}
+.ftext{
+color:#565656;
+font-weight: bold;
+}
+#where{
+padding-left: 30px;
+font-size: 77%;
+position: relative;
+top: 20px;
+
+}
+#inwhere{
+position: relative;
+left: 30px;
+top: 30px;
+width: 85%;
+height: 45px;
+border-radius: 3%;
+padding-left: 12px;
+border: 1px solid #EBEBEB;
+font-size: 110%;
+}
+#check{
+padding-left: 30px;
+font-size: 77%;
+position: relative;
+top: 50px;
+}
+#checkout{
+position: relative;
+left: 130px;
+}
+#date1{
+position: relative;
+left: 30px;
+top: 60px;
+width: 42%;
+height: 45px;
+border-radius: 3%;
+padding-left: 12px;
+border: 1px solid #EBEBEB;
+font-size: 110%;
+font-family: sans-serif;
+color: #565656;
+} 
+#date2{
+position: relative;
+left: 25px;
+top: 60px;
+width: 42%;
+height: 45px;
+border-radius: 3%;
+padding-left: 12px;
+border: 1px solid #EBEBEB;
+font-size: 110%;
+font-family: Arial, Helvetica, sans-serif;
+color: #6e6e6e; 
+}  
+#guests{
+font-size: 77%;
+padding-left: 30px;
+position: relative;
+top: 80px;
+}
+#select{
+border: 1px solid #EBEBEB;
+font-size: 110%;
+font-family: Arial, Helvetica, sans-serif;
+color: #6e6e6e; 
+width: 85%;
+height: 45px;
+position: relative;
+top: 90px;
+left: 30px;
+padding-left: 12px;
+}
+#fbutton{
+width: 100px;
+position: relative;
+top: 110px;
+left: 310px;
+height: 50px;
+background-color:#FF5A5F;
+border: 1px solid #EBEBEB;
+font-size: 110%;
+font-family: Arial, Helvetica, sans-serif;
+color:white;
+border-radius: 5%;
+font-weight: bold;
+
+}
+.navbar{
+font-size: 16px;
+width: 100%;
+}
+.navbar-dark .nav-item .nav-link{
+color: white;
+padding: 15px;
+float: right;
+}
+.ml-auto{
+    float: right;
+}
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+}
+#mobile-form{
+    position: relative;
+    top: -50px;
+    display: none;
+}
+#row1{
+    height: auto;
+    font-weight: bold;
+    font-size: 155%;
+    margin: 0 auto;
+    line-height: 1.5rem;
+}
+#row2{
+    height: auto;
+    width: 100%;
+    position: relative;
+    padding-top: 5%;
+    margin: 0 auto;
+}
+#mhtext{
+    color: white;
+}
+#mwhere{
+    font-size: 80%;
+} 
+#minwhere{
+    position: relative;
+    top: 10px;
+    width: 100%;
+    height: 45px;
+    border-radius: 3%;
+    padding-left: 12px;
+    border: 1px solid #EBEBEB;
+    font-size: 110%;
+}
+#mcheck{
+    font-size: 80%;
+    position: relative;
+    top: 20px;
+}  
+#mcheckout{
+    margin-left: 40%;
+} 
+#mdate1{
+    position: relative;
+    top: 30px;
+    width: 49%;
+    height: 45px;
+    border-radius: 3%;
+    padding-left: 12px;
+    border: 1px solid #EBEBEB;
+    font-size: 105%;
+}
+#mdate2{
+    position: relative;
+    top: 30px;
+    width: 49%;
+    height: 45px;
+    border-radius: 3%;
+    padding-left: 12px;
+    border: 1px solid #EBEBEB;
+    font-size: 105%;
+}
+#mguests{
+    font-size: 80%;
+    position: relative;
+    top: 40px;
+}
+#mselect{
+    position: relative;
+    top: 50px;
+    width: 100%;
+    height: 45px;
+    border-radius: 3%;
+    padding-left: 12px;
+    border: 1px solid #EBEBEB;
+    font-size: 110%;
+}
+#mfbutton{
+    position: relative;
+    top: 70px;
+    width: 100%;
+    height: 45px;
+    border-radius: 3%;
+    padding-left: 12px;
+    border: 1px solid #EBEBEB;
+    font-size: 110%;
+    background-color: #FF5A5F;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    border-radius: 5%;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 1000px){
+    #main-form{
+        display: none;
+    } 
+    #mobile-form{
+        display: block;
+    }
+
+}
+@media only screen and (max-width: 770px){
+    .navbar{
+        line-height: 0px;
+    }
+    .navbar-dark .nav-item .nav-link{
+        padding: 10px;  
+    }
+}
+@media only screen and (max-width: 500px){
+    .navbar-dark .nav-item .nav-link{
+        padding: 7px;
+        font-size: 10px;  
+    }
+}
